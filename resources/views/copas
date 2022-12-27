@@ -1,0 +1,285 @@
+<div class="row">
+          <!-- Left col -->
+          <section class="col-lg-6 connectedSortable">
+            <!-- Custom tabs (Charts with tabs)-->
+           
+            <!-- /.card -->
+
+            <!-- DIRECT CHAT -->
+            
+            <!--/.direct-chat -->
+
+            <!-- TO DO List -->
+            @if(auth()->user()->username=='adha')
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="ion ion-clipboard mr-1"></i>
+                  Verifikasi Minuta Akta
+                </h3>
+
+                <div class="card-tools">
+                  
+                </div>
+              </div>
+              <!-- /.card-header -->
+              
+        
+        <div class="card-body p-0">
+          <table class="table table-striped projects">
+              <thead>
+                  <tr>
+                      <th style="width: 1%">
+                          No
+                      </th>
+                      <th style="width: 20%">
+                          Nama Akta
+                      </th>
+                      
+                      
+                      <th style="width: 20%">
+                          Action
+                      </th>
+                  </tr>
+              </thead>
+              <tbody>
+                
+              
+                  <tr>
+                      <td>
+                      
+                      </td>
+                       
+                      <td>
+                     
+                        
+                         
+                      </td>
+                      
+                      
+                      <td>
+                          <a class="btn btn-primary btn-sm" href="">
+                              <i class="fas fa-folder">
+                              </i>
+                              View
+                          </a>
+                          
+                      </td>
+                  </tr>
+                  
+                      <tr>
+                      <td colspan="6" align="center">No Data</td>
+                      </tr>
+                      
+                 
+              </tbody>
+          </table>
+        </div>
+        <!-- /.card-body -->
+     
+              <!-- /.card-body -->
+              <div class="card-footer clearfix">
+               
+              </div>
+            </div>
+            @else
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="ion ion-clipboard mr-1"></i>
+                  Dokumen Akta Harus Selesai Minggu ini
+                </h3>
+
+                <div class="card-tools">
+                  
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <ul class="todo-list" data-widget="todo-list">
+                  <li>
+                    <!-- drag handle -->
+                    
+                    <!-- checkbox -->
+                    
+                    <!-- todo text -->
+                    <span class="text">Lorem Ipsum</span>
+                    <!-- Emphasis label -->
+                    <small class="badge badge-danger"><i class="far fa-clock"></i> 2 mins</small>
+                    <!-- General tools such as edit or delete-->
+                    <div class="tools">
+                      
+                    </div>
+                  </li>
+                  <li>
+                    <!-- drag handle -->
+                    
+                    <!-- checkbox -->
+                    
+                    <!-- todo text -->
+                    <span class="text">Lorem Ipsum</span>
+                    <!-- Emphasis label -->
+                    <small class="badge badge-danger"><i class="far fa-clock"></i> 5 mins</small>
+                    <!-- General tools such as edit or delete-->
+                    <div class="tools">
+                      
+                    </div>
+                  </li>
+                  
+                  
+                  
+                </ul>
+              </div>
+              <!-- /.card-body -->
+              <div class="card-footer clearfix">
+               
+              </div>
+            </div>
+            @endif
+            <!-- /.card -->
+          </section>
+          <!-- /.Left col -->
+          <!-- right col (We are only adding the ID to make the widgets sortable)-->
+          <section class="col-lg-6 connectedSortable">
+          @if(auth()->user()->username=='adha')
+
+<div class="card">
+  <div class="card-header">
+    <h3 class="card-title">
+      <i class="ion ion-clipboard mr-1"></i>
+      Verifikasi Salinan Akta
+    </h3>
+
+    <div class="card-tools">
+      
+    </div>
+  </div>
+  <!-- /.card-header -->
+  
+
+<div class="card-body p-0">
+<table class="table table-striped projects">
+  <thead>
+      <tr>
+          <th style="width: 1%">
+              No
+          </th>
+          <th style="width: 20%">
+              Nama Akta
+          </th>
+          
+          
+          <th style="width: 20%">
+              Action
+          </th>
+      </tr>
+  </thead>
+  <tbody>
+    
+  
+      <tr>
+          <td>
+          
+          </td>
+           
+          <td>
+         
+            
+             
+          </td>
+          
+          
+          <td>
+              <a class="btn btn-primary btn-sm" href="">
+                  <i class="fas fa-folder">
+                  </i>
+                  View
+              </a>
+              
+          </td>
+      </tr>
+      
+          <tr>
+          <td colspan="6" align="center">No Data</td>
+          </tr>
+          
+     
+  </tbody>
+</table>
+</div>
+<!-- /.card-body -->
+
+  <!-- /.card-body -->
+  <div class="card-footer clearfix">
+   
+  </div>
+</div>
+@else
+<div class="card">
+  <div class="card-header">
+    <h3 class="card-title">
+      <i class="ion ion-clipboard mr-1"></i>
+      Dokumen Akta Harus Selesai Minggu ini
+    </h3>
+
+    <div class="card-tools">
+      
+    </div>
+  </div>
+  <!-- /.card-header -->
+  <div class="card-body">
+    <ul class="todo-list" data-widget="todo-list">
+      <li>
+        <!-- drag handle -->
+        
+        <!-- checkbox -->
+        
+        <!-- todo text -->
+        <span class="text">Lorem Ipsum</span>
+        <!-- Emphasis label -->
+        <small class="badge badge-danger"><i class="far fa-clock"></i> 2 mins</small>
+        <!-- General tools such as edit or delete-->
+        <div class="tools">
+          
+        </div>
+      </li>
+      <li>
+        <!-- drag handle -->
+        
+        <!-- checkbox -->
+        
+        <!-- todo text -->
+        <span class="text">Lorem Ipsum</span>
+        <!-- Emphasis label -->
+        <small class="badge badge-danger"><i class="far fa-clock"></i> 5 mins</small>
+        <!-- General tools such as edit or delete-->
+        <div class="tools">
+          
+        </div>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  <!-- /.card-body -->
+  <div class="card-footer clearfix">
+   
+  </div>
+</div>
+@endif
+            <!-- Map card -->
+            
+            <!-- /.card -->
+
+            <!-- solid sales graph -->
+            
+            <!-- /.card -->
+
+            <!-- Calendar -->
+            
+            <!-- /.card -->
+          </section>
+          <!-- right col -->
+        </div>
